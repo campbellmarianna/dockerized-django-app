@@ -1,5 +1,4 @@
-# MY ENGAGING WORKOUT APP
+# My Engaging Workout App
 A mobile application that will be built with Python, Django, and the Django REST Framework.
 
-- [My Proposal]: proposal.md
 [Project Proposal](proposal.md)
