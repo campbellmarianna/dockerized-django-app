@@ -1,3 +1,27 @@
-from django.shortcuts import render
+from django.http import HttpResponse
+from django.views import generic
+from django.utils import timezone
 
-# Create your views here.
+from .models import Workout
+
+# def index(request):
+#     return HttpResponse("Hello, world. You're at the workout index.")
+
+class IndexView(generic.ListView):
+    template_name = 'workout/index.html'
+    context_object_name = 'workout_list'
+
+    def get_queryset(self):
+        """Return the last five posted workouts (not including those set to
+        be published in the future). """
+        return Workout.objects.order_by('-post_date')[:5]
+
+class DetailView(generic.DetailView):
+    template_name = 'workout/detail.html'
+    context_object_name = 'workout'
+
+    def get_queryset(self):
+        """
+        Return three reps which represents the set.
+        """
+        return Workout.objects.all()
