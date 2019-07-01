@@ -25,7 +25,7 @@ SECRET_KEY = 'n6(0k9-+27w+@oqx1dxwo0(f#*b+n%tt%o@o0i2xn-_ql@y8s!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['workout-mc.herokuapp.com']
 
 
 # Application definition
