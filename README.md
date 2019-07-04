@@ -8,7 +8,7 @@ A backend for a mobile application that is intended to help users track their wo
 
 [Project Proposal](proposal.md)
 
-Website: https://workout-clone-mc.herokuapp.com/api/
+Website: https://workout-clone-mc.herokuapp.com/workouts/
 
 ## Base URL
 
@@ -16,7 +16,7 @@ Website: https://workout-clone-mc.herokuapp.com/api/
 https://workout-clone-mc.herokuapp.com/workouts
 ```
 
-View list of workouts and individual workouts via the api
+View list of workouts and individual workouts via the **API**
 
 ```
 https://workout-clone-mc.herokuapp.com/api/workout/ - Index
