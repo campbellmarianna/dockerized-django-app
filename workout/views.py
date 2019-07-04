@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.views import generic
 from django.utils import timezone
 
-from .models import Workout
+from .models import Workout, Set, Rep
 
 # def index(request):
 #     return HttpResponse("Hello, world. You're at the workout index.")
@@ -19,9 +19,10 @@ class IndexView(generic.ListView):
 class DetailView(generic.DetailView):
     template_name = 'workout/detail.html'
     context_object_name = 'workout'
+    model = Set
 
     def get_queryset(self):
         """
         Return three reps which represents the set.
         """
-        return Workout.objects.all()
+        return Set.objects.all()
