@@ -14,11 +14,6 @@ A **daily outline** to assist in planning my sprint:
 * **Tuesday 25**: Implement API.
 * **Wednesday 26**: Documentation and deployment.
 
-Later Plan
-- Implement Improve functionality of app to add checkbox for reps and add RESTful API Friday
-- Finish up tests and Deploy Sunday
-- Create README and integrate an open source API (already made workouts) Monday
-
 ### Project Notes:
 - Rep (repetition) is one complete motion of an exercise
 - A set is a group of consecutive repetitions
@@ -30,7 +25,12 @@ Later Plan
 - https://stronglifts.com/
 - https://www.dummies.com/health/exercise/weights/weight-training-how-many-reps-and-sets-to-do/
 
-# More Notes
+Later Plan
+- Implement Improve functionality of app to add checkbox for reps and add RESTful API Friday
+- Finish up tests and Deploy Sunday
+- Create README and integrate an open source API (already made workouts) Monday
+
+More Notes
 - How should I represent time
 - How can I access reps in a set?
 - set.
