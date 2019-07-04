@@ -2,7 +2,7 @@
 
 # My Engaging Workout App
 
-![Github](https://img.shields.io/github/languages/top/campbellmariana/workout-backend.svg)
+![Github](https://img.shields.io/github/languages/top/campbellmarianna/workout-backend.svg)
 
 A backend for a mobile application that is intended to help users track their workout and the history of their workouts. This portion of the app is built with Python, Django, and the Django REST Framework.
 

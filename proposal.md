@@ -30,15 +30,15 @@ Later Plan
 - https://stronglifts.com/
 - https://www.dummies.com/health/exercise/weights/weight-training-how-many-reps-and-sets-to-do/
 
-# Questions
-# How should I represent time
-# How can I access reps in a set?
+# More Notes
+- How should I represent time
+- How can I access reps in a set?
 - set.
 - workout.set.reps.count()
-to get one use id
+- to get one use id
 - use unicode function
 - have detail of workout
-# What do you mean when you say no secrets exposed?
-dj-database-url
+- What do you mean when you say no secrets exposed?
+- dj-database-url
 - addon Postgres
 - python-dotenv
