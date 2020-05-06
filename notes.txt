@@ -1,0 +1,4 @@
+Helpful Resources:
+https://djangoforbeginners.com/pages-app/ 
+Goals:
+- use Django Health Check: https://pypi.org/project/django-health-check/

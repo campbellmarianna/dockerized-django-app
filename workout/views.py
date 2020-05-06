@@ -26,3 +26,6 @@ class DetailView(generic.DetailView):
         Return three reps which represents the set.
         """
         return Set.objects.all()
+
+def health(request):
+    return HttpResponse()
