@@ -1,4 +1,5 @@
 Helpful Resources:
-https://djangoforbeginners.com/pages-app/ 
+https://djangoforbeginners.com/pages-app/
+- https://stackoverflow.com/questions/16330404/how-to-remove-remote-origin-from-git-repo 
 Goals:
 - use Django Health Check: https://pypi.org/project/django-health-check/
