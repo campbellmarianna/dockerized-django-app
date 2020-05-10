@@ -8,7 +8,7 @@ The goal of this project is to dockerize my [REST API](https://github.com/campbe
 
 ## Project Goals
 - [ ] - Register a domain
-- [ ] - Create DigitalOcean Droplet
+- [x] - Create DigitalOcean Droplet
 - [ ] - Develop a Dockerfile or docker-compose.yml file that successfully deploys a web application or open source project.
 - [ ] - Deploy the container to your cloud production server.
 - [x] - Monitor the deployed application’s uptime using a health check.
