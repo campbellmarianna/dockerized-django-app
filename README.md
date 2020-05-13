@@ -6,8 +6,10 @@ The goal of this project is to dockerize my [REST API](https://github.com/campbe
 
 > My definition of dockerize is to deploy a given application using docker.
 
+Website URL: http://www.visionmade.tech/
+
 ## Project Goals
-- [ ] - Register a domain
+- [x] - Register a domain
 - [x] - Create DigitalOcean Droplet
 - [ ] - Develop a Dockerfile or docker-compose.yml file that successfully deploys a web application or open source project.
 - [ ] - Deploy the container to your cloud production server.
